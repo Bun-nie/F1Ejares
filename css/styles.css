@@ -1,0 +1,157 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.image-container {
+  text-align: center; /* Aligns content in the center */
+}
+
+.centered-image {
+  display: inline-block; /* Allows the images to be centered */
+  margin: 0 auto; /* Centers the images horizontally */
+  /* height: 200px;
+  width: 200px; */
+}
+
+.socials {
+  height: 100px; 
+  width: 100px;
+  margin-top: -25px;
+  margin-bottom: -25px;
+}
+
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #B67352;
+  color: white;
+  padding: 10px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #B67352;
+  color: white;
+  padding: 10px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
+header {
+  background-color: #343a40;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 0;
+}
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+header p {
+  margin: 5px 0 0;
+  font-size: 1rem;
+}
+form {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+form label {
+  font-weight: bold;
+}
+form input[type="text"],
+form input[type="password"] {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+}
+form input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #B67352;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  cursor: pointer;
+}
+form input[type="submit"]:hover{
+  width: 100%;
+  padding: 10px;
+  background-color: #ECB159;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  cursor: pointer;
+}
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #B67352;
+  color: #ffffff;
+}
+.back-button {
+  display: inline-block;
+  background-color: #B67352;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin-bottom: 20px;
+  margin-top: 150px;
+}
+.back-button:hover {
+  display: inline-block;
+  background-color: #ECB159;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin-bottom: 20px;
+  margin-top: 150px;
+}
+#register_body {
+  background-image:url("../images/bgLogIn.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#login_body {
+  background-image: url("../images/bgLogIn.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*Make footer stay at bottom and not cover content*/
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #B67352;
+  color: white;
+  padding: 10px;
+}
+
+body {
+  margin-bottom: 200px; /* Adjust this value to match the height of your footer */
+}
